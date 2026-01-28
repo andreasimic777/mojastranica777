@@ -118,4 +118,30 @@ iframe {
   transform: scale(1.05);
   border-color: #32cd32; /* zelena */
 }
+.slike {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.slika-sekcije {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border: 3px solid #6a0dad;
+  border-radius: 12px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.slika-sekcije:hover {
+  transform: scale(1.08);
+  border-color: #ffd700;
+}
+
 
